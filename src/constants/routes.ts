@@ -1,0 +1,15 @@
+export enum ROUTES {
+  HOME = '/',
+  DIAGNOSE = '/diagnose',
+  REGISTER = '/registration',
+  LOGIN = '/login',
+  MAIL_REGISTRATION = '/mailregister',
+  THANK_YOU = '/thankyou',
+  TERMS = '/terms',
+  PROFILES = '/profiles',
+  PROFILE = '/profiles/:profileId',
+  FORGET_PASSWORD = '/forgetpassword',
+  CHANGE_PASSWORD = '/changepassword',
+  CHANGE_PASSWORD_SUCCESS = '/changepasswordsuccess',
+  DIAGNOSE_SUCCESS = '/diagnose/success',
+}
